@@ -1,0 +1,47 @@
+/* general styling */
+body{
+  background-color: #282c34
+}
+/* styling for App component */
+.outer{
+  position: absolute;
+  top:40vh;
+  left:40vw;
+  height: auto;
+  width: auto;
+}
+/* styling for Display component */
+.inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+/* styling for the button */
+.btn{
+  height:75px;
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px grey;
+  font-size: 40px;
+  cursor: pointer;
+}
+/* styling for the tooltip */
+.tooltip{
+  color: black;
+  background-color: lightgrey;
+  border-radius: 10px;
+  position: fixed;
+  height: 30px;
+  width: 220px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  box-shadow: 0px 0px 10px 5px black;
+}
+/* responsive */
+@media screen and (max-width: 500px){
+  .outer{
+    left:30vw;
+  }
+}
